@@ -9,8 +9,8 @@ CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
 EXPOSE 80
 EXPOSE 443
 
-ENV VERSION 3.1.1
-ENV PHPMONITOR_URL https://sourceforge.net/projects/phpservermon/files/phpservermon/PHP%20Server%20Monitor%20v$VERSION/phpservermon-$VERSION.tar.gz/download
+ENV VERSION 3.2.0
+ENV PHPMONITOR_URL https://sourceforge.net/projects/phpservermon/files/phpservermon/phpservermon-$VERSION.tar.gz/download
 
 RUN set -x \
     && cd /var/www/html \
